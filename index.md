@@ -6,7 +6,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 
-Ari testing page.
+**Some new text**
+
 
 There should be whitespace between paragraphs.
 
@@ -29,6 +30,14 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
+  return false;
+}
+```
+
+```c++
+func foo() {
+return
+
 }
 ```
 
