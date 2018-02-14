@@ -175,3 +175,4 @@ The final element.
 
 [![HitCount](http://hits.dwyl.io/apmattil/site.svg)](http://hits.dwyl.io/apmattil/site)
 
+{% include post_comments.html %}
