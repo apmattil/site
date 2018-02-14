@@ -32,7 +32,7 @@ commentIssueId: 23
       );
     }
   }
-  $.ajax("https://api.github.com/repos/mkoohafkan/mkoohafkan.github.io/issues/23/comments", {
+  $.ajax("https://api.github.com/repos/apmattil/apmattil.github.io/issues/23/comments", {
     headers: {Accept: "application/vnd.github.v3.html+json"},
     dataType: "json",
     success: function(msg){
