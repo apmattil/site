@@ -1,6 +1,6 @@
 ---
 layout: default
-commentIssueId: 23
+commentIssueId: 1
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -32,7 +32,7 @@ commentIssueId: 23
       );
     }
   }
-  $.ajax("https://api.github.com/repos/apmattil/apmattil.github.io/issues/23/comments", {
+  $.ajax("https://api.github.com/repos/apmattil/apmattil.github.io/site/issues/comments", {
     headers: {Accept: "application/vnd.github.v3.html+json"},
     dataType: "json",
     success: function(msg){
