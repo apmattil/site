@@ -32,7 +32,7 @@ commentIssueId: 1
       );
     }
   }
-  $.ajax("https://api.github.com/repos/apmattil/apmattil.github.io/site/issues/comments", {
+  $.ajax("https://api.github.com/repos/apmattil/site/issues/comments", {
     headers: {Accept: "application/vnd.github.v3.html+json"},
     dataType: "json",
     success: function(msg){
