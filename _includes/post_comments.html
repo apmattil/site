@@ -24,7 +24,7 @@ href="https://github.com/apmattil/site/issues/{{page.commentIssueId}}"> this pos
       $("#comments").append('<br><div class="post-header bg-{{site.default_post_color}}"><span class="post-meta">' + cdate.toLocaleDateString("en", dopts) + '</span><br><a class="post-link" href="' + cuserlink + '"><h3 class="h3 post-title">' + cuser + '</h3></a></div><article class="post-content">' + cbody + '</article>');
     }
   }
-  $.ajax("https://api.github.com/repos/apmattil/apmattil.github.io/issues/{{ page.commentIssueId }}/comments", {
+  $.ajax("https://api.github.com/repos/apmattil/site/issues/{{ page.commentIssueId }}/comments", {
     headers: {Accept: "application/vnd.github.v3.html+json"},
     dataType: "json",
     success: function(msg){
